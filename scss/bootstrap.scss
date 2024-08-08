@@ -1,0 +1,65 @@
+// customize Bootstrap before import
+
+// Font
+$font-family-sans-serif: "Open Sans", sans-serif;
+
+//colors:
+$primary: rgb(25, 30, 71);
+$secondary: rgb(69, 85, 210);
+$info: rgb(204, 41, 115);
+$light: rgb(249, 250, 254);
+$dark: #494c52;
+
+$body-color: #494c52;
+
+//Spacers:
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 6,
+    7: $spacer * 8,
+    8: $spacer * 12,
+    ) !default;
+
+
+//Buttons:
+$button-radius: 50px;
+$button-padding-x: 25px;
+$button-padding-y: 10px;
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-border-radius-sm: $button-radius;
+
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+
+
+//navbar:
+$navbar-toggler-border-radius: 5px;
+
+//Line Height
+$line-height-base: 1.6;
+
+//Carousel:
+// styles.scss
+
+$carousel-control-size: 50px; // Size of the control buttons
+$carousel-control-bg: #17a2b8; // Bootstrap info color (or your custom color)
+$carousel-control-hover-bg: darken($carousel-control-bg, 10%
+); // Darker background on hover
+
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Yavin Office Design</title>
+</head>
+
+<body id="index" class="position-relative mw-100 overflow-x-hidden">
+
+
+    <!-- up button -->
+    <aside class="up-container position-fixed bg-dark rounded-circle d-none">
+        <a href="#" id="up">
+            <i class="fa-solid fa-angle-up text-white p-3"></i>
+        </a>
+
+    </aside>
+
+
+
+    <nav class="navbar navbar-expand-lg px-md-6 pt-3 fixed-top z-2">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="./images/logo.svg" alt="logo" width="125">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav ms-auto fw-semibold ps-5 pb-3">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#details" class="nav-link">Details</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+
+                <li class="nav-item text-nowrap ps-lg-3">
+                    <a href="#contact" class="btn btn-outline-info fw-semibold">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <header class="mb-5">
+        <div class="container mt-8">
+            <div class="row gx-md-5 gy-5 position-relative text-center">
+                <img src="./images/decoration-star.svg" alt="background stars "
+                    class="position-absolute header-stars-left ">
+                <img src="./images/decoration-star.svg" alt="background stars "
+                    class="position-absolute header-stars-right ">
+                <div class="col-md-6 d-flex flex-column justify-content-center align-content-center z-1">
+                    <h1 class="display-1 fw-bolder text-primary pb-3 ">
+                        The
+                        <span class="text-secondary">Perfect</span>
+                        Office Space
+                    </h1>
+
+                    <p class="fs-5 pb-3">
+                        We specialize in transforming office spaces into inspiring and environments. Let us
+                        bring your vision to
+                        life.
+                    </p>
+
+                    <div class="d-flex flex-column gap-3 d-sm-block ">
+                        <a href="#details" class="btn btn-lg btn-secondary me-sm-4">More Details</a>
+                        <a href="#contact" class="btn btn-lg btn-outline-info">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 z-1">
+                    <img src="./images/header.png" alt="office image" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="row gx-md-5 gy-3 mt-7 text-center">
+                <div class="col-md-3">
+                    <p class="display-1 fw-bolder text-primary" id="counter-customers"></p>
+                    <p>Happy Customers</p>
+                </div>
+
+                <div class="col-md-3">
+                    <p class="display-1 fw-bolder text-primary" id="counter-issues"></p>
+                    <p>Issues Solved</p>
+                </div>
+
+                <div class="col-md-3">
+                    <p class="display-1 fw-bolder text-primary" id="counter-reviews"></p>
+                    <p>Good Reviews</p>
+                </div>
+
+                <div class="col-md-3">
+                    <p class="display-1 fw-bolder text-primary" id="counter-cases"></p>
+                    <p>Case Studies</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- inspiring -->
+    <section class="bg-light py-6">
+        <div class="container">
+            <div class="row">
+                <h2 class="fs-2 fw-bold text-primary text-center">
+                    Creating
+                    <span class="fs-2 fw-bold text-info">Inspiring</span>
+                    Office Spaces
+                </h2>
+
+                <div class="col-md-8 offset-md-2 text-center">
+                    <p class="fs-5 pt-3">
+                        At our company, designing office spaces is our passion. We take pride in our completed projects
+                        that
+                        reflect our
+                        dedication and expertise in creating functional and aesthetically pleasing work environments.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Details -->
+    <section id="details" class="position-relative py-6">
+        <div class="container">
+            <div class="row gx-md-5 gy-5">
+                <img src="./images/decoration-star.svg" alt="background stars "
+                    class="position-absolute details-stars-left">
+                <div class="col-md-6 z-1">
+                    <img src="./images/details-1.png" alt="woman in office" class="ing-fluid mw-100">
+                </div>
+                <div class="col-md-6 z-1">
+                    <h2 class="fs-2 fw-bold text-primary pb-3">
+                        Create
+                        <span class="fs-2 fw-bold text-secondary">Unique</span>
+                        Office Spaces
+                    </h2>
+
+                    <ul class="list-unstyled ps-sm-3">
+                        <li class="hstack gap-sm-4 gap-2">
+                            <i class="fa-solid fa-check fs-2 text-secondary align-self-start"></i>
+                            <p>
+                                Our approach ensures that every office space is tailored to the unique needs and
+                                preferences of our clients. No two
+                                spaces look the same.
+                            </p>
+                        </li>
+
+                        <li class="hstack gap-sm-4 gap-2">
+                            <i class="fa-solid fa-check fs-2 text-secondary align-self-start"></i>
+                            <p>
+                                We pay attention to every detail, ensuring that the design elements, furniture, and
+                                decor create a harmonious and
+                                inspiring atmosphere.
+                            </p>
+                        </li>
+
+                        <li class="hstack gap-sm-4 gap-2">
+                            <i class="fa-solid fa-check fs-2 text-secondary align-self-start"></i>
+                            <p>
+                                Our team of experts guarantees that your office space will be a reflection of your brand
+                                identity and company culture.
+                            </p>
+                        </li>
+
+                        <li class="hstack gap-sm-4 gap-2">
+                            <i class="fa-solid fa-check fs-2 text-secondary align-self-start"></i>
+                            <p>
+                                Existence as discourse is. Pleasure friendly at marriage blessing or should
+                            </p>
+                        </li>
+
+                        <li class="d-sm-block d-flex justify-content-center">
+                            <a href="article.html" class="btn btn-secondary mt-4">Get Started</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- services -->
+    <section class="bg-light py-6" id="services">
+        <div class="container">
+            <div class="row gx-md-5 gy-5">
+                <div class="col-md-5">
+                    <h2 class="text-primary fs-2 fw-bold text-center text-sm-start">
+                        <span class="fs-2 fw-bold text-info">Services</span>
+                        that we offer
+                    </h2>
+
+                    <p class="pt-3 text-center text-md-start">
+                        At our company, we provide a wide range of services to meet all your office design needs. With
+                        our expertise and
+                        attention to detail, we ensure that every aspect of your office space is carefully considered
+                        and executed.
+                    </p>
+
+                </div>
+
+                <div class="col-md-7 text-center">
+                    <div class="row gx-md-3 gy-5">
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-rocket text-info display-4"></i>
+                            <p class="fs-4 fw-bold">
+                                Space Analysis & Planning
+                            </p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-clock text-info display-4"></i>
+                            <p class="fs-4 fw-bold">
+                                Design & Color Choosing
+                            </p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-comments text-info display-4"></i>
+                            <p class="fs-4 fw-bold">
+                                Materials & Delivery
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="row gx-md-3 gy-5 mt-4 mt-sm-0">
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-screwdriver-wrench text-info display-4"></i>
+                            <p class="fs-4 fw-bold">
+                                Execute The Concept
+                            </p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-chart-bar text-info display-4"></i>
+                            <p class="fs-4 fw-bold">
+                                Evaluation & Reporting
+                            </p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-chart-pie text-info display-4"></i>
+                            <p class="fs-4 fw-bold">
+                                Create A Great Atmosphere
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transform -->
+    <section class="my-7">
+        <div class="container">
+            <div class="row gx-md-5 gy-5">
+                <div class="col-md-6 z-1">
+                    <h2 class="text-primary fs-2 fw-bold text-center text-sm-start">
+                        Transform Your Workspace For Enhanced
+                        <span class="fs-2 fw-bold text-secondary">Productivity</span>
+                    </h2>
+                    <p class="text-center text-md-start py-3">
+                        A thoughtfully designed and well-organized office space has a profound impact on productivity
+                        and employee satisfaction.
+                        It sets the stage for seamless collaboration, efficient workflows, and creative inspiration. At
+                        our company, we
+                        specialize in creating tailored office environments that maximize productivity and elevate the
+                        overall work experience.
+                    </p>
+                    <div class="d-flex justify-content-center d-sm-block">
+                        <a href="article.html" class="btn btn-secondary ">Get Started</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 position-relative">
+                    <img src="./images/decoration-star.svg" alt="decoration stars"
+                        class="position-absolute details-stars-right">
+                    <img src="./images/details-2.png" alt="woman in office" class="img-fluid position-relative z-1">
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Quote -->
+    <section class="bg-light py-6 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <p class="text-primary fs-4 fw-bold">
+                        Our team of highly skilled designers and interior construction workers can deliver above your
+                        level of expections
+                    </p>
+                    <a href="#contact" class="btn btn-info">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="my-6 text-center">
+        <div class="container">
+            <div class="row mb-5">
+                <h2 class="text-primary fs-2 fw-bold">
+                    Some Of Our
+                    <span class="fs-2 fw-bold text-info">Projects</span>
+                </h2>
+            </div>
+
+            <div class="row gx-md-5 gy-5">
+                <div class="col-md-4 vstack gap-1">
+                    <img src="./images/project-1.jpg" class="img-fluid mb-3" alt="project image">
+
+                    <h5 class="text-primary fs-5">Office space for banking</h5>
+                    <p>A sleek and modern design that enhances productivity and
+                        professionalism.
+                        <a href="article.html" class="text-secondary">Read More</a>
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <img src="./images/project-2.jpg" class="img-fluid mb-3" alt="project image">
+
+                    <h5 class="text-primary fs-5">Planning and design for startup</h5>
+                    <p>A dynamic workspace tailored for innovation to support a
+                        growing team.
+                        <a href="article.html" class="text-secondary">Read More</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="./images/project-3.jpg" class="img-fluid mb-3" alt="project image">
+
+                    <h5 class="text-primary fs-5">Colors & materials update</h5>
+                    <p>A refreshed palette breathe new life into the office environment.
+                        <a href="article.html" class="text-secondary">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row gx-md-5 gy-5 my-3">
+                <div class="col-md-4 vstack gap-1">
+                    <img src="./images/project-4.jpg" class="img-fluid mb-3" alt="project image">
+
+                    <h5 class="text-primary fs-5">Analysis and floor design</h5>
+                    <p>A strategic layout that maximizes space efficiency and workflow.
+                        <a href="article.html" class="text-secondary">Read More</a>
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <img src="./images/project-5.jpg" class="img-fluid mb-3" alt="project image">
+
+                    <h5 class="text-primary fs-5">Office space decoration</h5>
+                    <p>
+                        A stylish transformation that blends comfort with elegance.
+                        <a href="article.html" class="text-secondary">Read More</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="./images/project-6.jpg" class="img-fluid mb-3" alt="project image">
+
+                    <h5 class="text-primary fs-5">Playground for kindergarten</h5>
+                    <p>
+                        A vibrant and engaging play area designed to spark creativity and activity.
+                        <a href="article.html" class="text-secondary">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonial -->
+    <section class="bg-light py-6">
+        <div class="container">
+            <div id="carousel1" class="carousel slide">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active ">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <img src="./images/testimonial-1.jpg" alt="woman image" class="img-fluid rounded-circle"
+                                width="120">
+                            <p class="fst-italic fs-3 w-75 py-4">
+                                “Working with this team transformed our office space beautifully. Their attention to
+                                detail
+                                and innovative approach
+                                exceeded our expectations. Every step of the process was smooth and the result truly
+                                reflects our vision.”
+                            </p>
+                            <p class="fs-4 fw-semibold m-0">
+                                Marlene Visconte
+                            </p>
+                            <p>
+                                General Manager - Scouter
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <img src="./images/testimonial-2.jpg" alt="woman image" class="img-fluid rounded-circle"
+                                width="120">
+                            <p class="fst-italic fs-3 w-75 py-4">
+                                “Outstanding results and a smooth experience from start to finish. Their expertise and
+                                sharp
+                                commitment to quality were
+                                evident throughout the project. Highly recommended for anyone seeking top-notch
+                                service.”
+                            </p>
+                            <p class="fs-4 fw-semibold m-0">
+                                John Spiker
+                            </p>
+                            <p>
+                                Team Leader - Vanquish
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <img src="./images/testimonial-3.jpg" alt="woman image" class="img-fluid rounded-circle"
+                                width="120">
+                            <p class="fst-italic fs-3 w-75 py-4">
+                                “Remarkable service and exceptional design quality. Their attention to every single
+                                detail and
+                                dedication made the entire process
+                                seamless and satisfying. I couldn't be happier with the development and the results.”
+                            </p>
+                            <p class="fs-4 fw-semibold m-0">
+                                Stella Virtuoso
+                            </p>
+                            <p>
+                                Design Chief - Bikegirl
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel1" data-bs-slide="prev">
+                    <div class="bg-info rounded-circle me-md-7">
+                        <i class="fa-solid fa-arrow-left text-white fs-3 p-2"></i>
+                    </div>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                    <div class="bg-info rounded-circle ms-md-7">
+                        <i class="fa-solid fa-arrow-right text-white fs-3 p-2"></i>
+                    </div>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="mb-7 pt-3" id="contact">
+        <div class="container">
+            <div class="row gx-md-5 gy-5 mt-5">
+                <div class="col-md-6 position-relative">
+                    <img src="./images/decoration-star.svg" alt="decoration stars"
+                        class="position-absolute contact-stars">
+                    <img src="./images/contact.png" alt="woman in office" class="img-fluid position-relative z-1">
+
+                </div>
+
+                <div class="col-md-6 position-relative z-1">
+                    <h2 class="text-primary fs-2 fw-bold">
+                        Contact Us For A Quote
+                    </h2>
+                    <form class="vstack gap-3 mt-4" action="https://formspree.io/f/xjkbrbyz" method="POST">
+                        <input type="text" name="name" placeholder="Enter name"
+                            class="form-control form-control-lg rounded-5">
+
+                        <input type="email" name="email" placeholder="Enter email"
+                            class="form-control form-control-lg rounded-5">
+
+                        <input type="tel" name="tel" placeholder="Enter phone"
+                            class="form-control form-control-lg rounded-5">
+
+                        <textarea name="message" placeholder="Enter message" rows="5"
+                            class="form-control form-control-lg rounded-5"></textarea>
+
+                        <button type="submit" class="btn btn-secondary">Send</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-light position-relative z-1 py-6">
+        <div class="container">
+            <div class="row gx-md-5 gy-5">
+                <div class="col-md-4">
+                    <h3 class="text-primary text-center text-sm-start">About Yavin</h3>
+                    <p class="text-center text-sm-start">
+                        Yavin, your partner in innovative office design. Transforming workspaces into inspiring
+                        environments with creativity and
+                        precision.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="text-primary text-center text-sm-start">Links</h3>
+                    <p>
+                        Important:
+                        <a href="#" class="text-secondary">Terms & Conditions</a>,
+                        <a href="#" class="text-secondary">Privacy Policy</a>
+                    </p>
+
+                    <p>
+                        Useful:
+                        <a href="#" class="text-secondary">Icon Library</a>,
+                        <a href="#" class="text-secondary">Illustrations</a>
+                    </p>
+
+                    <p>
+                        Menu:
+                        <a href="index.html" class="text-secondary">Home</a>,
+                        <a href="#details" class="text-secondary">Details</a>,
+                        <a href="#services" class="text-secondary">Services</a>,
+                        <a href="#contact" class="text-secondary">Contact</a>
+
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <ul class="list-unstyled d-flex flex-column flex-md-row gap-4 align-items-center">
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook display-5"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.twitter.com/" target="_blank">
+                                <i class="fa-brands fa-twitter display-5"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram display-5"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.pinterest.com/" target="_blank">
+                                <i class="fa-brands fa-pinterest display-5"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p class="text-center text-sm-start">We would love to hear from you</p>
+                    <p class="text-center text-sm-start">
+                        <a href="#" class="text-secondary fw-semibold">contact@site.com</a>
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="mt-5 ms-3">
+                <p class="m-0 text-center text-md-start">
+                    Copyright © 2024 | Coded By:
+                    <span class="text-dark fw-semibold fs-5 d-block d-md-inline text-center text-md-start "
+                        style="font-family: Satisfy, cursive;">
+                        <a href="https://github.com/Mustafa-Alie" target="_blank" class="text-decoration-none">Mustafa
+                            Ali.</a>
+                    </span>
+                </p>
+
+                <p class="m-0 text-center text-md-start">
+                    Under Supervision of:
+                    <a href="https://www.traversymedia.com/" class="text-decoration-none" target="_blank">
+                        <span class="fw-semibold fs-5 d-block d-md-inline text-dark text-md-start"
+                            style="font-family: Satisfy, cursive;">Brad
+                            Traversy</span>
+                    </a>
+
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
